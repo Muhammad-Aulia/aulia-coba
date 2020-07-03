@@ -1,0 +1,27 @@
+*	{padding: 0; margin: 0;}
+
+body {background: url(images/background.jpg); font-family: arial;}
+
+.container {width: 900px; margin:auto;}
+
+
+/*HEADER8*/
+header {height: 200px; background :	#FFF5EE	;}
+header img {margin :0px 0px 0px 50px;}
+
+/*MENU*/
+menu {height:50px; margin:10px 0px;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff1a00+0,000000+100 */
+background: #ff1a00; /* Old browsers */
+background: -moz-linear-gradient(top,  #ff1a00 0%, #000000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ff1a00 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ff1a00 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1a00', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+ }
+
+menu li {list-style:none;}
+menu li a {text-decoration: none; float: left; line-height: 50px; color: #FFF5EE; padding: 0px 20px;  border-right:1px solid #FFFFFF }
+menu li a:hover {background-color: #000000; color:#FFD700;}
+
+
+/*ARTICLE*/
+article {background: #FFF5EE; padding: 20px; margin: auto;}
